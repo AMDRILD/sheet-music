@@ -23,14 +23,25 @@
 r16
 e''8 b' g'
 
-% Compasso 2
+ % Compasso 2
 
-d'' c'' a' f' eis'
+d'' c'' g' e' dis'
  b'~b' a'
+g'16 e' fis' g' b' d'' fis''8~fis''4. e''8
+\acciaccatura fis''8
+a''8 g'' b' c'' g''4.
+f''8
 
-    \bar "||"
-  }
+\relative { e''1 \mf\> s \p } 
+
+
+ \bar "|."
+
+}
+
+  \midi{}
   \layout {
     indent = 1.5\cm
   }
+
 }
